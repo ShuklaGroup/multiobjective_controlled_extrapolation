@@ -61,11 +61,11 @@ conda env create -f environment.yml
 
 ## Data
 - **`WT_seq.npy`**: Wild-type protein sequence (for PbrR).  
-- **`input.csv`**: Contains columns: `Mutant`, `1uM Pb`, `30uM Zn`, and `seq`.  
+- **`input.csv`**: Contains columns: `Mutant`, `1uM Pb`, `30uM Zn`, and `seq`.  (Will be available upon publication)
   - `Mutant`: Variant mutation in AASiteSub format (e.g., M1A), multi-mutants separated by underscores (e.g., M1A_N20C).  
   - `1uM Pb`: Fold change response to Lead.  
   - `30uM Zn`: Fold change response to Zinc.  
-  - `seq`: Full sequence of the variant.
+  - `seq`: Full sequence of the variant. 
 
 ## **Quick Start Guide**  
 Below is an example workflow to use the multi-objective controlled extrapolation framework:
